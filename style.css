@@ -1,0 +1,65 @@
+.div-1 {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+}
+
+.div-2 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+}
+
+.div-3 {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 30px;
+}
+h1{
+  border: 4px double black;
+  margin: 10px 3px 0 auto;
+  height: 50px;
+  width: auto;
+  display: inline;
+  position: 10px 10px 10px 10px;
+  box-sizing: content-box;
+  font: 1.2em "Fira Sans", sans-serif;
+}
+table {
+  margin: .3em;
+  width: 290px;
+}
+p {
+  background-color:red;
+  width:100px;
+  display:inline;
+}
+span {
+  background-color:blue;
+  width: 100px;
+}
+
+th {
+  padding: .2em;
+}
+
+td {
+  padding-left: .5em;
+  padding-right: .5em;
+  border: 1px solid #900;
+  background-color: #ffc;
+}
+
+#trHeader {
+  text-decoration: underline;
+  color: #900;
+}
+
+.centerCell {
+  text-align: center;
+}
